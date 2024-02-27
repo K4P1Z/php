@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(224, 220, 220);
+}
+
+nav,h1,li,h2,.numberofrecords{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 10, 202);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color: red;
+}
+
+.home{
+    flex-direction: column;
+    height: 70vh;
+}
+ul{
+    list-style-type: none;
+}
+
+.numberofrecords{
+    font-size: 25px;
+    color: darkgreen;
+}
+
+.list{
+    font-size: 30px;
+}
+
